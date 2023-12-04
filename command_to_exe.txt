@@ -1,0 +1,15 @@
+1. For running App through python
+
+commands to run before running App
+
+pip install MediaPipe
+pip install PySimpleGUI
+pip install sqlite3
+pip install opencv-python
+pip install numpy
+
+2. to convert pyhton file to executable.
+
+pyinstaller --onefile --noconsole --collect-data mediapipe --add-data "`Path`;mediapipe" entry.py
+
+the `Path` is the path to mediapipe package installed in your respective computer.You have to search where your python folder exists and paste the path of the mediapipe package along with ";mediapipe" combined and the execute. 
