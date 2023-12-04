@@ -8,6 +8,8 @@ pip install sqlite3
 pip install opencv-python
 pip install numpy
 
+Execute front.py
+
 2. to convert pyhton file to executable.
 
 pyinstaller --onefile --noconsole --collect-data mediapipe --add-data "`Path`;mediapipe" entry.py
